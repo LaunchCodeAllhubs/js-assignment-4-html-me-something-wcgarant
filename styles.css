@@ -1,1 +1,100 @@
 /* Write your CSS here! */
+/* element selectors */
+
+body {
+    background-color: #e2d6d7);
+    font-family: 'Satisfy', cursive;
+    font-size: 18pt;
+    font-weight: 400;
+    color: #333;
+    width: 100vw;
+    height: 100vh;
+    margin: 8px;
+    padding: 0px;
+    overflow-x: hidden;
+    display: block;
+}
+
+header {
+    height: auto;
+    padding: 50px;
+    margin: 0px;
+}
+
+main {
+  padding: 10px 20px;
+}
+
+footer {
+    font-size: .9rem;
+    color:#e2d6d7;
+    background-color: #e3afbc;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    border:5px solid #5d001e;
+}
+
+h1 {
+    /* font-family: google font */
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin: 0px 0px 10px;
+}
+
+h2 {
+    /* font-family: google font */
+    background-color: #e3afbc;
+    color:#5d001e;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: -30px;
+    padding: 40px;
+    text-decoration:underline;
+}
+
+p {
+    text-align: justify;
+    margin: 1.3rem 0px;
+    padding: 35px 40px 20px 10px;
+}
+
+a {
+    color:#85042d;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+a:hover {
+   color:#3b0315; 
+}
+
+/* class selectors */
+.funParagraph {
+    color:green;
+    font-family: 'Open Sans';
+}
+
+/* id selectors */
+#mainHeading {
+   color: red;
+   font-family: 'Dancing Script', cursive;
+   text-align: center; 
+}
+#tableOfContents {
+    background-color: #e3afbc;
+    margin-left: -30px;
+    padding: 5px 0px 40px 20px;
+    color:#5d001e
+}
+
+#testP {
+
+}
